@@ -1,0 +1,24 @@
+{
+    "al.ruleSetPath": "./.vscode/rules.ruleset.json",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${PerTenantExtensionCop}",
+        "${CodeCop}",
+        "${UICop}",
+		"${AppSourceCop}"
+    ],
+	"files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "*.app": true,
+        "**/.gitignore": true,
+        ".gitignore": true,
+        "**/.gitkeep": true,
+        ".gitkeep": true
+    },
+    "explorerExclude.backup": {}
+}
